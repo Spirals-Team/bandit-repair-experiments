@@ -1,0 +1,715 @@
+{
+  "executions": [
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): unbounded solution\nclass org.apache.commons.math.optimization.linear.UnboundedSolutionException: unbounded solution\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexSolver.java:100)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexSolver.java:205)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:230)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020490405,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "variableName": "numArtificialVariables",
+          "value": "numArtificialVariables",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020490671,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): unbounded solution\nclass org.apache.commons.math.optimization.linear.UnboundedSolutionException: unbounded solution\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexSolver.java:100)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexSolver.java:205)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:230)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020490880,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "variableName": "numSlackVariables",
+          "value": "numSlackVariables",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020491110,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020491319,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "variableName": "numDecisionVariables",
+          "value": "numDecisionVariables",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020491580,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math.optimization.linear.SimplexTableau.initialize(SimplexTableau.java:467)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.<init>(SimplexTableau.java:61)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:229)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020491789,
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "variableName": "numArtificialVariables",
+          "value": "numArtificialVariables",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020492001,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math.optimization.linear.SimplexTableau.initialize(SimplexTableau.java:467)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.<init>(SimplexTableau.java:61)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:229)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020492214,
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "variableName": "numSlackVariables",
+          "value": "numSlackVariables",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020492425,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math.optimization.linear.SimplexTableau.initialize(SimplexTableau.java:467)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.<init>(SimplexTableau.java:61)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:229)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020492638,
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "variableName": "numDecisionVariables",
+          "value": "numDecisionVariables",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020492851,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020493060,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "0",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020493297,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): no entry at indices (-1, 0) in a 3x7 matrix\nclass org.apache.commons.math.linear.MatrixIndexException: no entry at indices (-1, 0) in a 3x7 matrix\n    at org.apache.commons.math.linear.Array2DRowRealMatrix.getEntry(Array2DRowRealMatrix.java:436)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.subtractRow(SimplexTableau.java:769)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.initialize(SimplexTableau.java:470)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.<init>(SimplexTableau.java:61)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:229)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020493506,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "-1",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020493756,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): unbounded solution\nclass org.apache.commons.math.optimization.linear.UnboundedSolutionException: unbounded solution\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doIteration(SimplexSolver.java:100)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.solvePhase1(SimplexSolver.java:205)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:230)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020493966,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "1",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020494195,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math.optimization.linear.SimplexTableau.initialize(SimplexTableau.java:467)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.<init>(SimplexTableau.java:61)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:229)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020494406,
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "0",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020494616,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math.optimization.linear.SimplexTableau.initialize(SimplexTableau.java:467)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.<init>(SimplexTableau.java:61)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:229)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020494825,
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "-1",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020495035,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath290(SimplexSolverTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math.optimization.linear.SimplexTableau.initialize(SimplexTableau.java:467)\n    at org.apache.commons.math.optimization.linear.SimplexTableau.<init>(SimplexTableau.java:61)\n    at org.apache.commons.math.optimization.linear.SimplexSolver.doOptimize(SimplexSolver.java:229)\n    at org.apache.commons.math.optimization.linear.AbstractLinearOptimizer.optimize(AbstractLinearOptimizer.java:138)\n    at SimplexSolverTest.testMath290(SimplexSolverTest.java:23)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020495244,
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "1",
+          "type": "int"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020495453,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020495662,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020495896,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020496106,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "null",
+          "type": "void"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VOID",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020496338,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "-1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "null",
+        "type": "void"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VOID",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numArtificialVariables",
+        "value": "numArtificialVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numSlackVariables",
+        "value": "numSlackVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numDecisionVariables",
+        "value": "numDecisionVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numArtificialVariables",
+        "value": "numArtificialVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numSlackVariables",
+        "value": "numSlackVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numDecisionVariables",
+        "value": "numDecisionVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "0",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "-1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "0",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Tue Feb 09 12:21:38 UTC 2016"
+}

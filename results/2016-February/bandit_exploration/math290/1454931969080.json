@@ -1,0 +1,7437 @@
+{
+  "executions": [
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931884296,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454931884567,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931884762,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931884999,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931885188,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931885441,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931885630,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931885867,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931886056,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931886291,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931886480,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931886716,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931886906,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931887140,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931887329,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931887565,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931887755,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931887990,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931888179,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931888414,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931888620,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931888854,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931889043,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931889278,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931889467,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931889702,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931889891,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931890124,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931890314,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931890547,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931890737,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931890971,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931891167,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931891400,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931891590,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931891823,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931892012,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931892245,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931892481,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931892714,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931892908,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931893163,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931893352,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931893593,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931893802,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931894034,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931894223,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931894458,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931894648,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931894880,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931895069,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931895303,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931895492,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931895724,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931895913,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931896145,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931896336,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931896571,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931896760,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931896993,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931897182,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931897414,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931897603,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931897834,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931898023,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931898256,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931898445,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931898677,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931898867,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931899098,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931899288,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931899520,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931899710,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931899940,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931900130,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931900362,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931900551,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931900783,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931900972,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931901205,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931901394,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931901625,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931901814,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931902045,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931902234,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931902464,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931902654,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931902887,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931903076,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931903307,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931903496,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931903725,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931903927,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931904157,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931904346,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931904577,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931904766,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931905005,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931905201,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931905444,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931905634,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931905878,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931906067,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931906298,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931906488,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931906724,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931906914,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931907144,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931907333,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931907563,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931907752,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931907981,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931908178,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931908432,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931908624,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931908852,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931909062,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931909291,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931909482,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931909711,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931909900,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931910128,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931910321,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931910555,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931910747,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931911002,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931911191,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931911420,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931911609,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931911837,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931912026,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931912254,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931912442,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931912670,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931912860,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931913090,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931913279,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931913509,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931913698,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931913925,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931914127,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931914356,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931914545,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931914774,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931914964,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931915201,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931915390,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931915638,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931915827,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931916055,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931916245,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931916474,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931916663,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931916892,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931917080,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931917336,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931917549,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931917818,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931918008,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931918256,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931918445,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931918674,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931918864,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931919094,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931919304,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931919533,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931919722,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931919950,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931920139,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931920368,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931920556,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931920786,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931920975,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931921214,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931921404,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931921657,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931921933,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931922161,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931922350,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931922578,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931922767,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931922994,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931923185,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931923413,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931923602,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931923830,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931924020,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931924270,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931924478,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931924707,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931924896,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931925124,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931925313,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931925540,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931925729,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931925957,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931926145,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931926380,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931926568,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931926796,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931926984,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931927212,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931927402,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931927630,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931927819,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931928046,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931928235,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931928463,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931928652,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931928879,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931929068,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931929295,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931929504,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931929732,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931929927,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931930154,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931930343,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931930570,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931930759,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931930987,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931931176,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931931404,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931931593,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931931821,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931932022,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931932250,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931932439,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931932667,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931932855,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931933083,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931933273,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931933528,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931933717,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931933946,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931934135,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931934377,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931934597,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931934831,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931935023,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931935250,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931935439,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931935666,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931935856,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931936083,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931936272,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931936499,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931936688,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931936915,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931937104,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931937332,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931937521,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931937747,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931937936,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931938162,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931938351,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931938578,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931938768,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931938995,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931939184,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931939411,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931939613,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931939840,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931940028,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931940255,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931940444,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931940702,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931940911,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931941138,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931941328,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931941554,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931941743,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931941970,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931942186,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931942412,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931942601,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931942827,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931943017,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931943243,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931943432,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931943659,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931943851,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931944080,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931944286,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931944515,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931944721,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931944947,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931945139,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931945374,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931945587,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931945814,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931946003,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931946230,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931946418,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931946646,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931946837,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931947084,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931947294,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931947522,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931947711,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931947951,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931948148,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931948375,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931948588,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931948815,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931949003,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931949229,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931949418,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931949645,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931949834,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931950060,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931950249,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931950476,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931950686,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931950913,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931951102,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931951336,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931951525,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931951752,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931951951,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931952198,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931952403,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931952673,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931952886,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931953117,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931953306,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931953533,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931953722,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931953949,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931954137,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931954390,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931954594,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931954820,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931955022,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931955266,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931955456,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931955682,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931955893,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931956121,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931956310,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931956536,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931956725,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931956952,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931957142,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931957368,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931957557,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931957785,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931957973,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931958201,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931958390,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931958618,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931958807,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931959033,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931959221,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931959447,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931959636,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931959863,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931960064,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931960290,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931960479,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931960705,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931960895,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931961122,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931961311,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931961538,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931961727,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931961952,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931962147,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931962373,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931962562,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931962788,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931962976,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931963203,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931963391,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931963618,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931963808,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931964035,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931964227,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931964454,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931964643,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931964870,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931965072,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931965299,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931965488,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931965715,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931965903,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931966130,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931966319,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931966546,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931966737,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931966964,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931967153,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931967389,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931967594,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931967820,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931968010,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931968236,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931968425,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931968650,
+      "metadata": {"seed": 6}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454931968839,
+      "locations": [{
+        "sourceEnd": 10318,
+        "executionCount": 0,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      }],
+      "test": {
+        "name": "testMath290",
+        "class": "SimplexSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 10318,
+          "line": 249,
+          "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+          "sourceStart": 10261
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1454931969067,
+      "metadata": {"seed": 6}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "null",
+        "type": "void"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VOID",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numArtificialVariables",
+        "value": "numArtificialVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numSlackVariables",
+        "value": "numSlackVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numDecisionVariables",
+        "value": "numDecisionVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numArtificialVariables",
+        "value": "numArtificialVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numSlackVariables",
+        "value": "numSlackVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "variableName": "numDecisionVariables",
+        "value": "numDecisionVariables",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "0",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "-1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "0",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "-1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 10318,
+        "line": 249,
+        "class": "org.apache.commons.math.optimization.linear.SimplexTableau",
+        "sourceStart": 10261
+      },
+      "value": {
+        "value": "1",
+        "type": "int"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Mon Feb 08 11:46:09 UTC 2016"
+}

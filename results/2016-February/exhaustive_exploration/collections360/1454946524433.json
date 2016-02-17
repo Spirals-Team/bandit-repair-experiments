@@ -1,0 +1,2942 @@
+{
+  "executions": [
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Object.getClass(Object.java:-2)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.equals(MethodContext.java:58)\n    at java.util.Vector.indexOf(Vector.java:404)\n    at java.util.Vector.indexOf(Vector.java:378)\n    at java.util.Vector.removeElement(Vector.java:637)\n    at java.util.Vector.remove(Vector.java:795)\n    at fr.inria.spirals.npefix.resi.CallChecker.methodEnd(CallChecker.java:249)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.methodEnd(MethodContext.java:34)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:359)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946349787,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "variableName": "this",
+          "value": "this",
+          "type": "java.util.ListIterator"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946370885,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Object.getClass(Object.java:-2)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.equals(MethodContext.java:58)\n    at java.util.Vector.indexOf(Vector.java:404)\n    at java.util.Vector.indexOf(Vector.java:378)\n    at java.util.Vector.removeElement(Vector.java:637)\n    at java.util.Vector.remove(Vector.java:795)\n    at fr.inria.spirals.npefix.resi.CallChecker.methodEnd(CallChecker.java:249)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.methodEnd(MethodContext.java:34)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:359)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946371082,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "variableName": "this",
+          "value": "this",
+          "type": "java.util.ListIterator"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946381827,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.collections.iterators.FilterListIterator.setNextObject(FilterListIterator.java:336)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasNext(FilterListIterator.java:82)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:74)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946382024,
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946382167,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Class.getEnclosingMethodInfo(Class.java:972)\n    at java.lang.Class.getEnclosingClass(Class.java:1145)\n    at java.lang.Class.getSimpleBinaryName(Class.java:1290)\n    at java.lang.Class.getSimpleName(Class.java:1182)\n    at fr.inria.spirals.npefix.resi.strategies.AbstractStrategy.equals(AbstractStrategy.java:381)\n    at fr.inria.spirals.npefix.resi.context.Decision.equals(Decision.java:117)\n    at java.util.ArrayList.indexOf(ArrayList.java:298)\n    at java.util.ArrayList.contains(ArrayList.java:281)\n    at fr.inria.spirals.npefix.resi.context.Laps.increaseNbApplication(Laps.java:46)\n    at fr.inria.spirals.npefix.resi.context.Laps.addApplication(Laps.java:61)\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:97)\n    at fr.inria.spirals.npefix.resi.CallChecker.isCalled(CallChecker.java:148)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946382357,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1A",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946403432,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Object.getClass(Object.java:-2)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.equals(MethodContext.java:58)\n    at java.util.Vector.indexOf(Vector.java:404)\n    at java.util.Vector.indexOf(Vector.java:378)\n    at java.util.Vector.removeElement(Vector.java:637)\n    at java.util.Vector.remove(Vector.java:795)\n    at fr.inria.spirals.npefix.resi.CallChecker.methodEnd(CallChecker.java:249)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.methodEnd(MethodContext.java:34)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:428)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946403675,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1B",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946414458,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946414660,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946414830,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946415029,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946415196,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946415386,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946415554,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946415743,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.TRUE",
+            "value": "java.lang.Boolean.TRUE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946415912,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946416105,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946416271,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946416460,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "true",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946416627,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946416817,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946416982,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:124)\n    at fr.inria.spirals.npefix.resi.CallChecker.beforeCalled(CallChecker.java:144)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:404)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946417172,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "variableName": "previousObjectSet",
+          "value": "previousObjectSet",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946417332,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Class.getEnclosingMethodInfo(Class.java:972)\n    at java.lang.Class.getEnclosingClass(Class.java:1145)\n    at java.lang.Class.getSimpleBinaryName(Class.java:1290)\n    at java.lang.Class.getSimpleName(Class.java:1182)\n    at fr.inria.spirals.npefix.resi.strategies.AbstractStrategy.equals(AbstractStrategy.java:381)\n    at fr.inria.spirals.npefix.resi.context.Decision.equals(Decision.java:117)\n    at java.util.ArrayList.indexOf(ArrayList.java:298)\n    at java.util.ArrayList.contains(ArrayList.java:281)\n    at fr.inria.spirals.npefix.resi.context.Laps.increaseNbApplication(Laps.java:46)\n    at fr.inria.spirals.npefix.resi.context.Laps.addApplication(Laps.java:61)\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:97)\n    at fr.inria.spirals.npefix.resi.CallChecker.isCalled(CallChecker.java:148)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946417531,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1A",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946438949,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Object.getClass(Object.java:-2)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.equals(MethodContext.java:58)\n    at java.util.Vector.indexOf(Vector.java:404)\n    at java.util.Vector.indexOf(Vector.java:378)\n    at java.util.Vector.removeElement(Vector.java:637)\n    at java.util.Vector.remove(Vector.java:795)\n    at fr.inria.spirals.npefix.resi.CallChecker.methodEnd(CallChecker.java:249)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.methodEnd(MethodContext.java:34)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:428)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946439152,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1B",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946449979,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946450181,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946450350,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946450550,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946450716,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946450905,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946451070,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946451258,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.TRUE",
+            "value": "java.lang.Boolean.TRUE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946451426,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946451616,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946451781,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946451971,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "true",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946452138,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946452328,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946452492,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:124)\n    at fr.inria.spirals.npefix.resi.CallChecker.beforeCalled(CallChecker.java:144)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:404)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946452682,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "variableName": "java.lang.Boolean.FALSE",
+          "value": "java.lang.Boolean.FALSE",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946452840,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:74)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946453040,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "variableName": "java.lang.Boolean.TRUE",
+          "value": "java.lang.Boolean.TRUE",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946453181,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Class.getEnclosingMethodInfo(Class.java:972)\n    at java.lang.Class.getEnclosingClass(Class.java:1145)\n    at java.lang.Class.getSimpleBinaryName(Class.java:1290)\n    at java.lang.Class.getSimpleName(Class.java:1182)\n    at fr.inria.spirals.npefix.resi.strategies.AbstractStrategy.equals(AbstractStrategy.java:381)\n    at fr.inria.spirals.npefix.resi.context.Decision.equals(Decision.java:117)\n    at java.util.ArrayList.indexOf(ArrayList.java:298)\n    at java.util.ArrayList.contains(ArrayList.java:281)\n    at fr.inria.spirals.npefix.resi.context.Laps.increaseNbApplication(Laps.java:46)\n    at fr.inria.spirals.npefix.resi.context.Laps.addApplication(Laps.java:61)\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:97)\n    at fr.inria.spirals.npefix.resi.CallChecker.isCalled(CallChecker.java:148)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946453370,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1A",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946474669,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Object.getClass(Object.java:-2)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.equals(MethodContext.java:58)\n    at java.util.Vector.indexOf(Vector.java:404)\n    at java.util.Vector.indexOf(Vector.java:378)\n    at java.util.Vector.removeElement(Vector.java:637)\n    at java.util.Vector.remove(Vector.java:795)\n    at fr.inria.spirals.npefix.resi.CallChecker.methodEnd(CallChecker.java:249)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.methodEnd(MethodContext.java:34)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:428)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946474874,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1B",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946485654,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946485856,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946486023,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946486222,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946486386,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946486579,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946486742,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946486931,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.TRUE",
+            "value": "java.lang.Boolean.TRUE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946487096,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946487285,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946487447,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946487639,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "true",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946487803,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946487992,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946488157,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:124)\n    at fr.inria.spirals.npefix.resi.CallChecker.beforeCalled(CallChecker.java:144)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:404)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946488347,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "variableName": "nextObjectSet",
+          "value": "nextObjectSet",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946488504,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:74)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946488703,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "value": "true",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946488845,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Class.getEnclosingMethodInfo(Class.java:972)\n    at java.lang.Class.getEnclosingClass(Class.java:1145)\n    at java.lang.Class.getSimpleBinaryName(Class.java:1290)\n    at java.lang.Class.getSimpleName(Class.java:1182)\n    at fr.inria.spirals.npefix.resi.strategies.AbstractStrategy.equals(AbstractStrategy.java:381)\n    at fr.inria.spirals.npefix.resi.context.Decision.equals(Decision.java:117)\n    at java.util.ArrayList.indexOf(ArrayList.java:298)\n    at java.util.ArrayList.contains(ArrayList.java:281)\n    at fr.inria.spirals.npefix.resi.context.Laps.increaseNbApplication(Laps.java:46)\n    at fr.inria.spirals.npefix.resi.context.Laps.addApplication(Laps.java:61)\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:97)\n    at fr.inria.spirals.npefix.resi.CallChecker.isCalled(CallChecker.java:148)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946489035,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1A",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946510207,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.StackOverflowError: null\n    at java.lang.Object.getClass(Object.java:-2)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.equals(MethodContext.java:58)\n    at java.util.Vector.indexOf(Vector.java:404)\n    at java.util.Vector.indexOf(Vector.java:378)\n    at java.util.Vector.removeElement(Vector.java:637)\n    at java.util.Vector.remove(Vector.java:795)\n    at fr.inria.spirals.npefix.resi.CallChecker.methodEnd(CallChecker.java:249)\n    at fr.inria.spirals.npefix.resi.context.MethodContext.methodEnd(MethodContext.java:34)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:428)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946510409,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "this",
+            "value": "this",
+            "type": "java.util.ListIterator"
+          },
+          "epsilon": 0,
+          "strategy": "Strat1B",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946521265,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:405)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946521468,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946521633,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946521828,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "previousObjectSet",
+            "value": "previousObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946521989,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946522178,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.FALSE",
+            "value": "java.lang.Boolean.FALSE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946522338,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946522528,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "java.lang.Boolean.TRUE",
+            "value": "java.lang.Boolean.TRUE",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946522691,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946522880,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "variableName": "nextObjectSet",
+            "value": "nextObjectSet",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946523041,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): \nclass java.lang.AssertionError: \n    at org.junit.Assert.fail(Assert.java:91)\n    at org.junit.Assert.assertTrue(Assert.java:43)\n    at org.junit.Assert.assertFalse(Assert.java:68)\n    at org.junit.Assert.assertFalse(Assert.java:79)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946523231,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "true",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946523394,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946523583,
+      "locations": [
+        {
+          "sourceEnd": 7726,
+          "executionCount": 0,
+          "line": 259,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 7705
+        },
+        {
+          "sourceEnd": 6918,
+          "executionCount": 0,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        }
+      ],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 6918,
+            "line": 230,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 6901
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 7726,
+            "line": 259,
+            "class": "org.apache.commons.collections.iterators.FilterListIterator",
+            "sourceStart": 7705
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1454946523743,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testCollections360(org.apache.commons.collections.iterators.TestFilterListIterator): null\nclass java.lang.NullPointerException: null\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:124)\n    at fr.inria.spirals.npefix.resi.CallChecker.beforeCalled(CallChecker.java:144)\n    at org.apache.commons.collections.iterators.FilterListIterator.setPreviousObject(FilterListIterator.java:404)\n    at org.apache.commons.collections.iterators.FilterListIterator.hasPrevious(FilterListIterator.java:101)\n    at org.apache.commons.collections.iterators.TestFilterListIterator.testCollections360(TestFilterListIterator.java:76)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946523932,
+      "locations": [{
+        "sourceEnd": 6918,
+        "executionCount": 0,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      }],
+      "test": {
+        "name": "testCollections360",
+        "class": "org.apache.commons.collections.iterators.TestFilterListIterator"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 6918,
+          "line": 230,
+          "class": "org.apache.commons.collections.iterators.FilterListIterator",
+          "sourceStart": 6901
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946524087,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "variableName": "this",
+        "value": "this",
+        "type": "java.util.ListIterator"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "variableName": "this",
+        "value": "this",
+        "type": "java.util.ListIterator"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "variableName": "previousObjectSet",
+        "value": "previousObjectSet",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "variableName": "java.lang.Boolean.FALSE",
+        "value": "java.lang.Boolean.FALSE",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "variableName": "java.lang.Boolean.TRUE",
+        "value": "java.lang.Boolean.TRUE",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "value": "true",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "variableName": "nextObjectSet",
+        "value": "nextObjectSet",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "variableName": "java.lang.Boolean.TRUE",
+        "value": "java.lang.Boolean.TRUE",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "variableName": "java.lang.Boolean.FALSE",
+        "value": "java.lang.Boolean.FALSE",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "variableName": "previousObjectSet",
+        "value": "previousObjectSet",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "variableName": "this",
+        "value": "this",
+        "type": "java.util.ListIterator"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 7726,
+        "line": 259,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 7705
+      },
+      "value": {
+        "variableName": "this",
+        "value": "this",
+        "type": "java.util.ListIterator"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "value": "true",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 6918,
+        "line": 230,
+        "class": "org.apache.commons.collections.iterators.FilterListIterator",
+        "sourceStart": 6901
+      },
+      "value": {
+        "variableName": "nextObjectSet",
+        "value": "nextObjectSet",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Mon Feb 08 15:48:44 UTC 2016"
+}

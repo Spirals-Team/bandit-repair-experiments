@@ -1,0 +1,216 @@
+{
+  "executions": [
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020491141,
+      "locations": [{
+        "sourceEnd": 3760,
+        "executionCount": 0,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      }],
+      "test": {
+        "name": "testPerformClusterAnalysisDegenerate",
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3760,
+          "line": 91,
+          "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+          "sourceStart": 3741
+        },
+        "value": {
+          "value": "org.apache.commons.math.stat.clustering.Cluster(null)",
+          "type": "org.apache.commons.math.stat.clustering.Cluster"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020491330,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020491529,
+      "locations": [{
+        "sourceEnd": 3760,
+        "executionCount": 0,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      }],
+      "test": {
+        "name": "testPerformClusterAnalysisDegenerate",
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3760,
+          "line": 91,
+          "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+          "sourceStart": 3741
+        },
+        "value": {
+          "value": "org.apache.commons.math.stat.clustering.Cluster(null)",
+          "type": "org.apache.commons.math.stat.clustering.Cluster"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020491681,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020491873,
+      "locations": [{
+        "sourceEnd": 3760,
+        "executionCount": 0,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      }],
+      "test": {
+        "name": "testPerformClusterAnalysisDegenerate",
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3760,
+          "line": 91,
+          "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+          "sourceStart": 3741
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020492023,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testPerformClusterAnalysisDegenerate(org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest): / by zero\nclass java.lang.ArithmeticException: / by zero\n    at org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.centroidOf(EuclideanIntegerPoint.java:89)\n    at org.apache.commons.math.stat.clustering.EuclideanIntegerPoint.centroidOf(EuclideanIntegerPoint.java:1)\n    at org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.cluster(KMeansPlusPlusClusterer.java:36)\n    at org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest.testPerformClusterAnalysisDegenerate(KMeansPlusPlusClustererTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020492212,
+      "locations": [{
+        "sourceEnd": 3760,
+        "executionCount": 0,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      }],
+      "test": {
+        "name": "testPerformClusterAnalysisDegenerate",
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3760,
+          "line": 91,
+          "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+          "sourceStart": 3741
+        },
+        "value": {
+          "value": "null",
+          "type": "void"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VOID",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020492364,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 3760,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      },
+      "value": {
+        "value": "org.apache.commons.math.stat.clustering.Cluster(null)",
+        "type": "org.apache.commons.math.stat.clustering.Cluster"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 3760,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      },
+      "value": {
+        "value": "org.apache.commons.math.stat.clustering.Cluster(null)",
+        "type": "org.apache.commons.math.stat.clustering.Cluster"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3760,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3760,
+        "line": 91,
+        "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer",
+        "sourceStart": 3741
+      },
+      "value": {
+        "value": "null",
+        "type": "void"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VOID",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Tue Feb 09 12:21:34 UTC 2016"
+}

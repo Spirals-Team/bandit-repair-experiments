@@ -1,0 +1,1536 @@
+{
+  "executions": [
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946341660,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "classes",
+          "value": "classes",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946341877,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946342110,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "primitiveWrapperMap",
+          "value": "primitiveWrapperMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946342245,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946342435,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+          "value": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946342569,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946342761,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "INNER_CLASS_SEPARATOR_CHAR",
+          "value": "INNER_CLASS_SEPARATOR_CHAR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946342895,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946343086,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "PACKAGE_SEPARATOR",
+          "value": "PACKAGE_SEPARATOR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946343221,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946343410,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "PACKAGE_SEPARATOR_CHAR",
+          "value": "PACKAGE_SEPARATOR_CHAR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946343543,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946343733,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "INNER_CLASS_SEPARATOR",
+          "value": "INNER_CLASS_SEPARATOR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946343866,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946344056,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "wrapperPrimitiveMap",
+          "value": "wrapperPrimitiveMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946344189,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946344379,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "reverseAbbreviationMap",
+          "value": "reverseAbbreviationMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946344511,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946344701,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "abbreviationMap",
+          "value": "abbreviationMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946344832,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946345022,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "array",
+          "value": "array",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946345155,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946345345,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "classes",
+          "value": "classes",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946345475,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946345666,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "primitiveWrapperMap",
+          "value": "primitiveWrapperMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946345797,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946346002,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+          "value": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946346132,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946346322,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "INNER_CLASS_SEPARATOR_CHAR",
+          "value": "INNER_CLASS_SEPARATOR_CHAR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946346454,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946346643,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "PACKAGE_SEPARATOR",
+          "value": "PACKAGE_SEPARATOR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946346774,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946346964,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "PACKAGE_SEPARATOR_CHAR",
+          "value": "PACKAGE_SEPARATOR_CHAR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946347094,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946347284,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "INNER_CLASS_SEPARATOR",
+          "value": "INNER_CLASS_SEPARATOR",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946347413,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946347603,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "wrapperPrimitiveMap",
+          "value": "wrapperPrimitiveMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946347734,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946347924,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "reverseAbbreviationMap",
+          "value": "reverseAbbreviationMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946348053,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946348243,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "abbreviationMap",
+          "value": "abbreviationMap",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946348372,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946348562,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "array",
+          "value": "array",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946348691,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946348880,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "value": "java.lang.Object()",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946349010,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946349200,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "value": "java.lang.Object()",
+          "type": "java.lang.Object"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946349329,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946349521,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946349678,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946349868,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "value": "null",
+          "type": "java.lang.Class[]"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NULL",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946349996,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946350186,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "variableName": "classes",
+          "value": "classes",
+          "type": "java.lang.Class[]"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946350314,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testToClass_object(org.apache.commons.lang3.ClassUtilsTest): null\nclass junit.framework.AssertionFailedError: null\n    at junit.framework.Assert.fail(Assert.java:47)\n    at junit.framework.Assert.assertTrue(Assert.java:20)\n    at junit.framework.Assert.assertTrue(Assert.java:27)\n    at org.apache.commons.lang3.ClassUtilsTest.testToClass_object(ClassUtilsTest.java:13)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946350504,
+      "locations": [{
+        "sourceEnd": 37278,
+        "executionCount": 0,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      }],
+      "test": {
+        "name": "testToClass_object",
+        "class": "org.apache.commons.lang3.ClassUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 37278,
+          "line": 910,
+          "class": "org.apache.commons.lang3.ClassUtils",
+          "sourceStart": 37260
+        },
+        "value": {
+          "value": "java.lang.Class[]",
+          "type": "java.lang.Class[]"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946350633,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "value": "java.lang.Object()",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "value": "java.lang.Object()",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "array",
+        "value": "array",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "abbreviationMap",
+        "value": "abbreviationMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "PACKAGE_SEPARATOR",
+        "value": "PACKAGE_SEPARATOR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "PACKAGE_SEPARATOR_CHAR",
+        "value": "PACKAGE_SEPARATOR_CHAR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "INNER_CLASS_SEPARATOR",
+        "value": "INNER_CLASS_SEPARATOR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "wrapperPrimitiveMap",
+        "value": "wrapperPrimitiveMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "reverseAbbreviationMap",
+        "value": "reverseAbbreviationMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "abbreviationMap",
+        "value": "abbreviationMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "array",
+        "value": "array",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "classes",
+        "value": "classes",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "value": "null",
+        "type": "java.lang.Class[]"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NULL",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "classes",
+        "value": "classes",
+        "type": "java.lang.Class[]"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "value": "java.lang.Class[]",
+        "type": "java.lang.Class[]"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "INNER_CLASS_SEPARATOR_CHAR",
+        "value": "INNER_CLASS_SEPARATOR_CHAR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+        "value": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "primitiveWrapperMap",
+        "value": "primitiveWrapperMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "classes",
+        "value": "classes",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "primitiveWrapperMap",
+        "value": "primitiveWrapperMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+        "value": "CallChecker.isCalled(classes, Class[].class, 910, 37247, 37256)[i]",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "INNER_CLASS_SEPARATOR_CHAR",
+        "value": "INNER_CLASS_SEPARATOR_CHAR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "PACKAGE_SEPARATOR",
+        "value": "PACKAGE_SEPARATOR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "PACKAGE_SEPARATOR_CHAR",
+        "value": "PACKAGE_SEPARATOR_CHAR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "INNER_CLASS_SEPARATOR",
+        "value": "INNER_CLASS_SEPARATOR",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "wrapperPrimitiveMap",
+        "value": "wrapperPrimitiveMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 37278,
+        "line": 910,
+        "class": "org.apache.commons.lang3.ClassUtils",
+        "sourceStart": 37260
+      },
+      "value": {
+        "variableName": "reverseAbbreviationMap",
+        "value": "reverseAbbreviationMap",
+        "type": "java.lang.Object"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Mon Feb 08 15:45:50 UTC 2016"
+}

@@ -1,0 +1,209 @@
+{
+  "executions": [
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020414264,
+      "locations": [{
+        "sourceEnd": 8026,
+        "executionCount": 0,
+        "line": 251,
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+        "sourceStart": 8014
+      }],
+      "test": {
+        "name": "testFieldsEntry",
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8026,
+          "line": 251,
+          "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+          "sourceStart": 8014
+        },
+        "value": {
+          "value": "org.apache.pdfbox.cos.COSArray()",
+          "type": "org.apache.pdfbox.cos.COSArray"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020414717,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020414951,
+      "locations": [{
+        "sourceEnd": 8026,
+        "executionCount": 0,
+        "line": 251,
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+        "sourceStart": 8014
+      }],
+      "test": {
+        "name": "testFieldsEntry",
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8026,
+          "line": 251,
+          "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+          "sourceStart": 8014
+        },
+        "value": {
+          "value": "org.apache.pdfbox.cos.COSArray()",
+          "type": "org.apache.pdfbox.cos.COSArray"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020415352,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testFieldsEntry(org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getField(PDAcroForm.java:348)\n    at org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest.testFieldsEntry(PDAcroFormTest.java:31)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n    at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n    at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n    at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)\n    at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:132)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:23)\n    at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:329)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testRunFinished(TestRunner.java:103)\n    at org.junit.runner.notification.SynchronizedRunListener.testRunFinished(SynchronizedRunListener.java:42)\n    at org.junit.runner.notification.RunNotifier$2.notifyListener(RunNotifier.java:103)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)\n    at org.junit.runner.notification.RunNotifier.fireTestRunFinished(RunNotifier.java:100)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:138)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020415599,
+      "test": {
+        "name": "testFieldsEntry",
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8026,
+          "line": 251,
+          "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+          "sourceStart": 8014
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020416002,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020416237,
+      "locations": [{
+        "sourceEnd": 8026,
+        "executionCount": 0,
+        "line": 251,
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+        "sourceStart": 8014
+      }],
+      "test": {
+        "name": "testFieldsEntry",
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8026,
+          "line": 251,
+          "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+          "sourceStart": 8014
+        },
+        "value": {
+          "value": "null",
+          "type": "org.apache.pdfbox.pdmodel.interactive.form.PDField"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NULL",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020416636,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 8026,
+        "line": 251,
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+        "sourceStart": 8014
+      },
+      "value": {
+        "value": "org.apache.pdfbox.cos.COSArray()",
+        "type": "org.apache.pdfbox.cos.COSArray"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 8026,
+        "line": 251,
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+        "sourceStart": 8014
+      },
+      "value": {
+        "value": "org.apache.pdfbox.cos.COSArray()",
+        "type": "org.apache.pdfbox.cos.COSArray"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8026,
+        "line": 251,
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+        "sourceStart": 8014
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8026,
+        "line": 251,
+        "class": "org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm",
+        "sourceStart": 8014
+      },
+      "value": {
+        "value": "null",
+        "type": "org.apache.pdfbox.pdmodel.interactive.form.PDField"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NULL",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Tue Feb 09 12:20:21 UTC 2016"
+}

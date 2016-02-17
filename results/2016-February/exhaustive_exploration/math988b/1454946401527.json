@@ -1,0 +1,1636 @@
+{
+  "executions": [
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946385671,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946385991,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946386190,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946386465,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946386655,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946386931,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946387121,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946387395,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946387608,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946387888,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946388099,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946388371,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946388607,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "direction",
+          "value": "direction",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946388884,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946389135,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946389407,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946389624,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946389897,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946390116,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946390388,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946390660,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946390930,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946391141,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "zero",
+          "value": "zero",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946391413,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946391605,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946391860,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946392116,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946392371,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946392616,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946392872,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946393108,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946393365,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946393599,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946393854,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946394057,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946394311,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946394511,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "direction",
+          "value": "direction",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946394766,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946395016,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946395271,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946395516,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946395771,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946396016,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946396270,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946396499,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946396754,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946396954,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "variableName": "zero",
+          "value": "zero",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946397208,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946397407,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0, 0.0)",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946397680,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946397907,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0)",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946398186,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946398407,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0, 0.0)",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946398660,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:124)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946398860,
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0)",
+          "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946399113,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testIntersectionNotIntersecting(org.apache.commons.math3.geometry.euclidean.threed.SubLineTest): null\nclass fr.inria.spirals.npefix.resi.exception.AbnormalExecutionError: null\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.getAbscissa(Line.java:131)\n    at org.apache.commons.math3.geometry.euclidean.threed.Line.toSubSpace(Line.java:162)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLine.intersection(SubLine.java:78)\n    at org.apache.commons.math3.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(SubLineTest.java:12)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)\n    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)\n    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)\n    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.model.EachTestNotifier.addFailure(EachTestNotifier.java:29)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:80)\n    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)\n    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)\n    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)\n    at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)\n    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)\n    at org.junit.runners.ParentRunner.run(ParentRunner.java:236)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946399313,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946399566,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946399827,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "0.0",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946400094,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946400308,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "-1.0",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946400573,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946400791,
+      "locations": [{
+        "sourceEnd": 4584,
+        "executionCount": 0,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      }],
+      "test": {
+        "name": "testIntersectionNotIntersecting",
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.SubLineTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 4584,
+          "line": 114,
+          "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+          "sourceStart": 4565
+        },
+        "value": {
+          "value": "1.0",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946401060,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "zero",
+        "value": "zero",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "direction",
+        "value": "direction",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "zero",
+        "value": "zero",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0, 0.0)",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0)",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0, 0.0)",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0)",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "0.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "-1.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "value": "1.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "direction",
+        "value": "direction",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 4584,
+        "line": 114,
+        "class": "org.apache.commons.math3.geometry.euclidean.threed.Line",
+        "sourceStart": 4565
+      },
+      "value": {
+        "variableName": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+        "value": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K",
+        "type": "org.apache.commons.math3.geometry.euclidean.threed.Vector3D"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Mon Feb 08 15:46:41 UTC 2016"
+}

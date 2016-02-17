@@ -1,0 +1,510 @@
+{
+  "executions": [
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946358745,
+      "locations": [{
+        "sourceEnd": 17273,
+        "executionCount": 0,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      }],
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "variableName": "m_declaredCaps",
+          "value": "m_declaredCaps",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946358935,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946359130,
+      "locations": [{
+        "sourceEnd": 17273,
+        "executionCount": 0,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      }],
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "variableName": "m_declaredReqs",
+          "value": "m_declaredReqs",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946359285,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946359479,
+      "locations": [{
+        "sourceEnd": 17273,
+        "executionCount": 0,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      }],
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "variableName": "l",
+          "value": "l",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946359633,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testGetResourcesLocalNullContentPath(org.apache.felix.framework.BundleRevisionImplTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.felix.framework.BundleRevisionImpl.getResourcesLocal(BundleRevisionImpl.java:1397)\n    at org.apache.felix.framework.BundleRevisionImplTest.testGetResourcesLocalNullContentPath(BundleRevisionImplTest.java:18)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946359828,
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "variableName": "m_declaredCaps",
+          "value": "m_declaredCaps",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946359985,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testGetResourcesLocalNullContentPath(org.apache.felix.framework.BundleRevisionImplTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.felix.framework.BundleRevisionImpl.getResourcesLocal(BundleRevisionImpl.java:1397)\n    at org.apache.felix.framework.BundleRevisionImplTest.testGetResourcesLocalNullContentPath(BundleRevisionImplTest.java:18)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946360180,
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "variableName": "m_declaredReqs",
+          "value": "m_declaredReqs",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946360337,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testGetResourcesLocalNullContentPath(org.apache.felix.framework.BundleRevisionImplTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.felix.framework.BundleRevisionImpl.getResourcesLocal(BundleRevisionImpl.java:1397)\n    at org.apache.felix.framework.BundleRevisionImplTest.testGetResourcesLocalNullContentPath(BundleRevisionImplTest.java:18)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946360537,
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "variableName": "l",
+          "value": "l",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat1B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946360695,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1454946360890,
+      "locations": [{
+        "sourceEnd": 17273,
+        "executionCount": 0,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      }],
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "value": "java.util.ArrayList()",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946361043,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testGetResourcesLocalNullContentPath(org.apache.felix.framework.BundleRevisionImplTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.felix.framework.BundleRevisionImpl.getResourcesLocal(BundleRevisionImpl.java:1397)\n    at org.apache.felix.framework.BundleRevisionImplTest.testGetResourcesLocalNullContentPath(BundleRevisionImplTest.java:18)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946361238,
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "value": "java.util.ArrayList()",
+          "type": "java.util.List"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2B",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946361395,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testGetResourcesLocalNullContentPath(org.apache.felix.framework.BundleRevisionImplTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.felix.framework.BundleRevisionImpl.getResourcesLocal(BundleRevisionImpl.java:1397)\n    at org.apache.felix.framework.BundleRevisionImplTest.testGetResourcesLocalNullContentPath(BundleRevisionImplTest.java:18)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946361590,
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946361745,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testGetResourcesLocalNullContentPath(org.apache.felix.framework.BundleRevisionImplTest): null\nclass java.lang.NullPointerException: null\n    at org.apache.felix.framework.BundleRevisionImplTest.testGetResourcesLocalNullContentPath(BundleRevisionImplTest.java:19)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1454946361940,
+      "locations": [{
+        "sourceEnd": 17273,
+        "executionCount": 0,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      }],
+      "test": {
+        "name": "testGetResourcesLocalNullContentPath",
+        "class": "org.apache.felix.framework.BundleRevisionImplTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 17273,
+          "line": 537,
+          "class": "org.apache.felix.framework.BundleRevisionImpl",
+          "sourceStart": 17256
+        },
+        "value": {
+          "value": "null",
+          "type": "java.util.Enumeration"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NULL",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1454946362095,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "variableName": "m_declaredCaps",
+        "value": "m_declaredCaps",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "variableName": "m_declaredReqs",
+        "value": "m_declaredReqs",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "variableName": "l",
+        "value": "l",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "variableName": "m_declaredCaps",
+        "value": "m_declaredCaps",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "variableName": "m_declaredReqs",
+        "value": "m_declaredReqs",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "variableName": "l",
+        "value": "l",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat1B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "value": "java.util.ArrayList()",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "value": "java.util.ArrayList()",
+        "type": "java.util.List"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 17273,
+        "line": 537,
+        "class": "org.apache.felix.framework.BundleRevisionImpl",
+        "sourceStart": 17256
+      },
+      "value": {
+        "value": "null",
+        "type": "java.util.Enumeration"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NULL",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Mon Feb 08 15:46:02 UTC 2016"
+}

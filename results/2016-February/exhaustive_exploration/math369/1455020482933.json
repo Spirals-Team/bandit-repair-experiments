@@ -1,0 +1,937 @@
+{
+  "executions": [
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020476255,
+      "locations": [
+        {
+          "sourceEnd": 3138,
+          "executionCount": 0,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        {
+          "sourceEnd": 3166,
+          "executionCount": 0,
+          "line": 89,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3157
+        }
+      ],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 3138,
+            "line": 88,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3127
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 3166,
+            "line": 89,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3157
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1455020476477,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020476713,
+      "locations": [
+        {
+          "sourceEnd": 3138,
+          "executionCount": 0,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        {
+          "sourceEnd": 3166,
+          "executionCount": 0,
+          "line": 89,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3157
+        }
+      ],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 3138,
+            "line": 88,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3127
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 3166,
+            "line": 89,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3157
+          },
+          "value": {
+            "variableName": "min",
+            "value": "min",
+            "type": "double"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1455020476876,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020477068,
+      "locations": [
+        {
+          "sourceEnd": 3138,
+          "executionCount": 0,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        {
+          "sourceEnd": 3166,
+          "executionCount": 0,
+          "line": 89,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3157
+        }
+      ],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 3138,
+            "line": 88,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3127
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 3166,
+            "line": 89,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3157
+          },
+          "value": {
+            "variableName": "max",
+            "value": "max",
+            "type": "double"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1455020477232,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020477426,
+      "locations": [
+        {
+          "sourceEnd": 3138,
+          "executionCount": 0,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        {
+          "sourceEnd": 3166,
+          "executionCount": 0,
+          "line": 89,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3157
+        }
+      ],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 3138,
+            "line": 88,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3127
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 3166,
+            "line": 89,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3157
+          },
+          "value": {
+            "variableName": "m",
+            "value": "m",
+            "type": "double"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 VAR",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1455020477587,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020477776,
+      "locations": [
+        {
+          "sourceEnd": 3138,
+          "executionCount": 0,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        {
+          "sourceEnd": 3166,
+          "executionCount": 0,
+          "line": 89,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3157
+        }
+      ],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 3138,
+            "line": 88,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3127
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 3166,
+            "line": 89,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3157
+          },
+          "value": {
+            "value": "0.0",
+            "type": "double"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1455020477948,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020478137,
+      "locations": [
+        {
+          "sourceEnd": 3138,
+          "executionCount": 0,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        {
+          "sourceEnd": 3166,
+          "executionCount": 0,
+          "line": 89,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3157
+        }
+      ],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 3138,
+            "line": 88,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3127
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 3166,
+            "line": 89,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3157
+          },
+          "value": {
+            "value": "-1.0",
+            "type": "double"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1455020478297,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020478488,
+      "locations": [
+        {
+          "sourceEnd": 3138,
+          "executionCount": 0,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        {
+          "sourceEnd": 3166,
+          "executionCount": 0,
+          "line": 89,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3157
+        }
+      ],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [
+        {
+          "location": {
+            "sourceEnd": 3138,
+            "line": 88,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3127
+          },
+          "value": {
+            "value": "false",
+            "type": "boolean"
+          },
+          "epsilon": 0,
+          "strategy": "Strat3",
+          "used": true,
+          "decisionType": "new"
+        },
+        {
+          "location": {
+            "sourceEnd": 3166,
+            "line": 89,
+            "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+            "sourceStart": 3157
+          },
+          "value": {
+            "value": "1.0",
+            "type": "double"
+          },
+          "epsilon": 0,
+          "strategy": "Strat4 NEW",
+          "used": true,
+          "decisionType": "new"
+        }
+      ],
+      "endDate": 1455020478648,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "error": "testMath369(org.apache.commons.math.analysis.solvers.BisectionSolverTest): null\nclass java.lang.NullPointerException: null\n    at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:123)\n    at fr.inria.spirals.npefix.resi.CallChecker.beforeDeref(CallChecker.java:151)\n    at org.apache.commons.math.analysis.solvers.BisectionSolver.solve(BisectionSolver.java:88)\n    at org.apache.commons.math.analysis.solvers.BisectionSolver.solve(BisectionSolver.java:44)\n    at org.apache.commons.math.analysis.solvers.BisectionSolver.solve(BisectionSolver.java:60)\n    at org.apache.commons.math.analysis.solvers.BisectionSolverTest.testMath369(BisectionSolverTest.java:19)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n    at java.lang.reflect.Method.invoke(Method.java:606)\n    at junit.framework.TestCase.runTest(TestCase.java:168)\n    at junit.framework.TestCase.runBare(TestCase.java:134)\n    at junit.framework.TestResult$1.protect(TestResult.java:110)\n    at junit.framework.TestResult.runProtected(TestResult.java:128)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\n\nTest mechanism: null\nclass java.lang.NullPointerException: null\n    at utils.sacha.runner.main.TestRunner$MethodRunListener.testFailure(TestRunner.java:90)\n    at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:96)\n    at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:38)\n    at org.junit.runner.notification.RunNotifier.fireTestFailure(RunNotifier.java:93)\n    at org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener.addError(JUnit38ClassRunner.java:41)\n    at junit.framework.TestResult.addError(TestResult.java:38)\n    at junit.framework.TestResult.runProtected(TestResult.java:137)\n    at junit.framework.TestResult.run(TestResult.java:113)\n    at junit.framework.TestCase.run(TestCase.java:124)\n    at junit.framework.TestSuite.runTest(TestSuite.java:232)\n    at junit.framework.TestSuite.run(TestSuite.java:227)\n    at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:157)\n    at org.junit.runner.JUnitCore.run(JUnitCore.java:136)\n    at utils.sacha.runner.main.TestRunner.run(TestRunner.java:70)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:81)\n    at fr.inria.spirals.npefix.main.ExecutionClient$1.call(ExecutionClient.java:78)\n    at java.util.concurrent.FutureTask.run(FutureTask.java:262)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n    at java.lang.Thread.run(Thread.java:745)\n\n\n",
+        "type": "test",
+        "success": false
+      },
+      "startDate": 1455020478849,
+      "locations": [{
+        "sourceEnd": 3138,
+        "executionCount": 0,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      }],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3138,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        "value": {
+          "value": "false",
+          "type": "boolean"
+        },
+        "epsilon": 0,
+        "strategy": "Strat3",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020479007,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020479196,
+      "locations": [{
+        "sourceEnd": 3138,
+        "executionCount": 0,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      }],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3138,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        "value": {
+          "variableName": "min",
+          "value": "min",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020479331,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020479521,
+      "locations": [{
+        "sourceEnd": 3138,
+        "executionCount": 0,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      }],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3138,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        "value": {
+          "variableName": "max",
+          "value": "max",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020479655,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020479847,
+      "locations": [{
+        "sourceEnd": 3138,
+        "executionCount": 0,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      }],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3138,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        "value": {
+          "variableName": "m",
+          "value": "m",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 VAR",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020479980,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020480170,
+      "locations": [{
+        "sourceEnd": 3138,
+        "executionCount": 0,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      }],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3138,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        "value": {
+          "value": "0.0",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020480304,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020480493,
+      "locations": [{
+        "sourceEnd": 3138,
+        "executionCount": 0,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      }],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3138,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        "value": {
+          "value": "-1.0",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020480627,
+      "metadata": {"seed": 10}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455020480816,
+      "locations": [{
+        "sourceEnd": 3138,
+        "executionCount": 0,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      }],
+      "test": {
+        "name": "testMath369",
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 3138,
+          "line": 88,
+          "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+          "sourceStart": 3127
+        },
+        "value": {
+          "value": "1.0",
+          "type": "double"
+        },
+        "epsilon": 0,
+        "strategy": "Strat4 NEW",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455020480949,
+      "metadata": {"seed": 10}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 3166,
+        "line": 89,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3157
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 3166,
+        "line": 89,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3157
+      },
+      "value": {
+        "variableName": "min",
+        "value": "min",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3138,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      },
+      "value": {
+        "value": "1.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3138,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      },
+      "value": {
+        "value": "-1.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3138,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      },
+      "value": {
+        "value": "0.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3138,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      },
+      "value": {
+        "variableName": "m",
+        "value": "m",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3138,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      },
+      "value": {
+        "variableName": "max",
+        "value": "max",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3138,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      },
+      "value": {
+        "variableName": "min",
+        "value": "min",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3138,
+        "line": 88,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3127
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": true,
+      "decisionType": "new"
+    },
+    {
+      "location": {
+        "sourceEnd": 3166,
+        "line": 89,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3157
+      },
+      "value": {
+        "value": "1.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3166,
+        "line": 89,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3157
+      },
+      "value": {
+        "value": "-1.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3166,
+        "line": 89,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3157
+      },
+      "value": {
+        "value": "0.0",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3166,
+        "line": 89,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3157
+      },
+      "value": {
+        "variableName": "m",
+        "value": "m",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 3166,
+        "line": 89,
+        "class": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+        "sourceStart": 3157
+      },
+      "value": {
+        "variableName": "max",
+        "value": "max",
+        "type": "double"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    }
+  ],
+  "date": "Tue Feb 09 12:21:22 UTC 2016"
+}

@@ -1,0 +1,7321 @@
+{
+  "executions": [
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704484749,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704484885,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704485094,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704485231,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704482553,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "new"
+      }],
+      "endDate": 1455704482726,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704486147,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704486300,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704485440,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704485576,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704485785,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704485938,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704484401,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704484540,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704484054,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704484192,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704482936,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704483077,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704483286,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704483426,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704483635,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704483845,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704488658,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704488791,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704489000,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704489135,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704486511,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704486645,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704490052,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704490203,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704489346,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704489480,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704489691,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704489842,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704488313,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704488449,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704487969,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704488105,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704486865,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704487002,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704487211,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704487349,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704487557,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704487760,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704492562,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704492695,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704492904,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704493038,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704490417,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704490550,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704493950,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704494102,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704493247,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704493381,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704493590,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704493742,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704492218,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704492353,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704491873,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704492009,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704490759,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704490897,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704491106,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704491243,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704491451,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704491654,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704496438,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704496571,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704496780,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704496912,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704494313,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704494445,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704497832,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704497981,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704497131,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704497264,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704497473,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704497623,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704496095,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704496229,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704495752,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704495887,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704494653,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704494788,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704494998,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704495132,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704495342,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704495543,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704500313,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704500445,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704500653,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704500790,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704498192,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704498323,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704501707,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704501856,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704500999,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704501139,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704501350,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704501498,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704499970,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704500104,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704499628,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704499762,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704498532,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704498667,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704498876,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704499010,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704499218,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704499419,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704504179,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704504309,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704504518,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704504649,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704502066,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704502196,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704505560,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704505707,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704504857,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704504988,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704505197,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704505351,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704503838,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704503970,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704503496,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704503629,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704502405,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704502538,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704502747,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704502880,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704503088,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704503287,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704508039,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704508168,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704508377,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704508507,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704505918,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704506047,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704509408,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704509555,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704508715,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704508845,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704509053,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704509200,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704507698,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704507830,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704507348,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704507480,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704506256,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704506393,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704506601,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704506733,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704506941,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704507139,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704511868,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704511997,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704512205,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704512336,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704509765,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704509894,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704513247,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704513394,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704512544,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704512674,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704512890,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704513039,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704511529,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704511660,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704511189,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704511320,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704510103,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704510235,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704510443,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704510575,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704510782,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704510981,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704515779,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704515908,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704516117,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704516247,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704513604,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704513733,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704517149,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704517296,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704516456,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704516585,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704516794,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704516940,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704515439,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704515570,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704515100,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704515230,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704513944,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704514076,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704514297,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704514457,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704514682,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704514883,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704519621,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704519750,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704519959,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704520089,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704517506,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704517634,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704520991,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704521138,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704520298,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704520428,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704520636,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704520783,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704519268,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704519413,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704518929,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704519059,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704517843,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704517974,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704518182,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704518314,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704518522,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704518720,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704523466,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704523595,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704523804,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704523934,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704521348,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704521476,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704524839,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704524985,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704524143,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704524273,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704524482,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704524630,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704523111,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704523242,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704522772,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704522902,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704521685,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704521816,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704522025,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704522157,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704522365,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704522563,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704527296,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704527426,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704527635,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704527765,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704525194,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704525323,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704528682,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704528828,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704527975,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704528105,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704528314,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704528459,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704526957,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704527088,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704526617,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704526748,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704525531,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704525663,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704525871,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704526002,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704526211,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704526409,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704531145,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704531273,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704531481,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704531610,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704529041,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704529169,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704532510,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704532656,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704531819,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704531948,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704532156,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704532302,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704530806,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704530936,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704530468,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704530598,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704529377,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704529508,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704529722,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704529852,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704530061,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704530259,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704534972,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704535100,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704535309,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704535437,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704532865,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704532992,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704536337,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704536488,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704535646,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704535775,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704535984,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704536129,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704534634,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704534764,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704534296,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704534425,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704533201,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704533331,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704533542,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704533671,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704533890,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704534087,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704538795,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704538923,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704539132,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704539261,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704536696,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704536824,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704540161,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704540306,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704539469,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704539598,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704539807,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704539952,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704538456,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704538586,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704538117,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704538247,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704537032,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704537163,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704537371,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704537501,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704537709,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704537908,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704542613,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704542742,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704542950,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704543079,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704540516,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704540643,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704543981,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704544127,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704543287,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704543416,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704543624,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704543770,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704542274,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704542405,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704541935,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704542065,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704540852,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704540983,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704541191,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704541320,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704541529,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704541727,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704546446,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704546574,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704546784,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704546912,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704544350,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704544477,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704547812,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704547957,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704547121,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704547250,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704547459,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704547603,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704546108,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704546237,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704545769,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704545899,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704544685,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704544815,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704545024,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704545154,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704545363,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704545561,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704550278,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704550406,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704550615,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704550743,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704548166,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testConstructor",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704548293,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704551644,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testCountriesByLanguage",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704551790,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704550952,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testIsAvailableLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704551081,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704551290,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLanguagesByCountry",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704551436,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704549939,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_LocaleLocale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704550069,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704549599,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testLocaleLookupList_Locale",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704549728,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704548502,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_1Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704548632,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704548841,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_2Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704548971,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704549181,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testToLocale_3Part",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704549379,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704554097,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleList",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704554225,
+      "metadata": {"seed": 20}
+    },
+    {
+      "result": {
+        "type": "test",
+        "success": true
+      },
+      "startDate": 1455704554433,
+      "locations": [{
+        "sourceEnd": 8770,
+        "executionCount": 0,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      }],
+      "test": {
+        "name": "testAvailableLocaleSet",
+        "class": "org.apache.commons.lang.LocaleUtilsTest"
+      },
+      "decisions": [{
+        "location": {
+          "sourceEnd": 8770,
+          "line": 223,
+          "class": "org.apache.commons.lang.LocaleUtils",
+          "sourceStart": 8735
+        },
+        "value": {
+          "value": "java.util.HashSet()",
+          "type": "java.util.Set"
+        },
+        "epsilon": 0,
+        "strategy": "Strat2A",
+        "used": true,
+        "decisionType": "best"
+      }],
+      "endDate": 1455704554562,
+      "metadata": {"seed": 20}
+    }
+  ],
+  "searchSpace": [
+    {
+      "location": {
+        "sourceEnd": 8770,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8770,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      },
+      "value": {
+        "value": "true",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 NEW",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8770,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      },
+      "value": {
+        "variableName": "java.lang.Boolean.TRUE",
+        "value": "java.lang.Boolean.TRUE",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8770,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      },
+      "value": {
+        "variableName": "java.lang.Boolean.FALSE",
+        "value": "java.lang.Boolean.FALSE",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat4 VAR",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8770,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      },
+      "value": {
+        "value": "false",
+        "type": "boolean"
+      },
+      "epsilon": 0,
+      "strategy": "Strat3",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8770,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      },
+      "value": {
+        "value": "java.util.HashSet()",
+        "type": "java.util.Set"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2B",
+      "used": false,
+      "decisionType": "random"
+    },
+    {
+      "location": {
+        "sourceEnd": 8770,
+        "line": 223,
+        "class": "org.apache.commons.lang.LocaleUtils",
+        "sourceStart": 8735
+      },
+      "value": {
+        "value": "java.util.HashSet()",
+        "type": "java.util.Set"
+      },
+      "epsilon": 0,
+      "strategy": "Strat2A",
+      "used": false,
+      "decisionType": "new"
+    }
+  ],
+  "date": "Wed Feb 17 10:22:35 UTC 2016"
+}
