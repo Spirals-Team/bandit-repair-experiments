@@ -1,6 +1,6 @@
 # Bandit Repair Experiments
 
-This repository contains the raw results of the execution of (Bandit-repair)[https://github.com/Spirals-Team/bandit-repair] on the dataset (NPE-dataset)[https://github.com/Spirals-Team/npe-dataset].
+This repository contains the raw results of the execution of [Bandit-repair](https://github.com/Spirals-Team/bandit-repair) on the dataset [NPE-dataset](https://github.com/Spirals-Team/npe-dataset).
 
 ## Repository architecture
 ```
