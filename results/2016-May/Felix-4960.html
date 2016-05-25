@@ -1,0 +1,217 @@
+<html>
+  <head>
+    <title>Felix-4960</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Felix-4960</h1>
+    <table class="summary pure-table">
+      <tr>
+        <td class="label">Nb encountered decision points</td> <td>1</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">Nb decision seq.</td> <td>10</td>
+      </tr>
+      <tr>
+        <td class="label">Nb valid runtime patches</td> <td>4</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Min Valid runtime patches.|</td> <td>1</td>
+      </tr>
+      <tr>
+        <td class="label">| Med Valid runtime patches.|</td> <td>1.0</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Max Valid runtime patches.|</td> <td>1</td>
+      </tr>
+    </table>
+    <ul class="executions">
+      	<li class="execution">
+      		<h2>Execution 1</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /java/org/apache/felix/framework/BundleRevisionImpl.java
++++ /java/org/apache/felix/framework/BundleRevisionImpl.java
+@@ -536,12 +536,26 @@
+             // Check the module class path.
+-            for (int i = 0; i &lt; contentPath.size(); i++)
+-            {
+-                if (contentPath.get(i).hasEntry(name))
++            if (contentPath == null) {
++                for (int i = 0; i &lt; m_declaredCaps.size(); i++)
+                 {
+-                    // Use the class path index + 1 for creating the path so
+-                    // that we can differentiate between module content URLs
+-                    // (where the path will start with 0) and module class
+-                    // path URLs.
+-                    l.add(createURL(i + 1, name));
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
+                 }
++            } else {
++                for (int i = 0; i &lt; contentPath.size(); i++)
++                {
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
++                }
+             }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 2</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /java/org/apache/felix/framework/BundleRevisionImpl.java
++++ /java/org/apache/felix/framework/BundleRevisionImpl.java
+@@ -536,12 +536,26 @@
+             // Check the module class path.
+-            for (int i = 0; i &lt; contentPath.size(); i++)
+-            {
+-                if (contentPath.get(i).hasEntry(name))
++            if (contentPath == null) {
++                for (int i = 0; i &lt; m_declaredReqs.size(); i++)
+                 {
+-                    // Use the class path index + 1 for creating the path so
+-                    // that we can differentiate between module content URLs
+-                    // (where the path will start with 0) and module class
+-                    // path URLs.
+-                    l.add(createURL(i + 1, name));
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
+                 }
++            } else {
++                for (int i = 0; i &lt; contentPath.size(); i++)
++                {
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
++                }
+             }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 3</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /java/org/apache/felix/framework/BundleRevisionImpl.java
++++ /java/org/apache/felix/framework/BundleRevisionImpl.java
+@@ -536,12 +536,26 @@
+             // Check the module class path.
+-            for (int i = 0; i &lt; contentPath.size(); i++)
+-            {
+-                if (contentPath.get(i).hasEntry(name))
++            if (contentPath == null) {
++                for (int i = 0; i &lt; l.size(); i++)
+                 {
+-                    // Use the class path index + 1 for creating the path so
+-                    // that we can differentiate between module content URLs
+-                    // (where the path will start with 0) and module class
+-                    // path URLs.
+-                    l.add(createURL(i + 1, name));
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
+                 }
++            } else {
++                for (int i = 0; i &lt; contentPath.size(); i++)
++                {
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
++                }
+             }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 7</h2>
+        	<div class="decision">
+	        	<h3>Strat2A</h3>
+		      	<pre class="diff">
+--- /java/org/apache/felix/framework/BundleRevisionImpl.java
++++ /java/org/apache/felix/framework/BundleRevisionImpl.java
+@@ -536,12 +536,26 @@
+             // Check the module class path.
+-            for (int i = 0; i &lt; contentPath.size(); i++)
+-            {
+-                if (contentPath.get(i).hasEntry(name))
++            if (contentPath == null) {
++                for (int i = 0; i &lt; new java.util.ArrayList().size(); i++)
+                 {
+-                    // Use the class path index + 1 for creating the path so
+-                    // that we can differentiate between module content URLs
+-                    // (where the path will start with 0) and module class
+-                    // path URLs.
+-                    l.add(createURL(i + 1, name));
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
+                 }
++            } else {
++                for (int i = 0; i &lt; contentPath.size(); i++)
++                {
++                    if (contentPath.get(i).hasEntry(name))
++                    {
++                        // Use the class path index + 1 for creating the path so
++                        // that we can differentiate between module content URLs
++                        // (where the path will start with 0) and module class
++                        // path URLs.
++                        l.add(createURL(i + 1, name));
++                    }
++                }
+             }
+
+		      	</pre>
+	    	</div>
+      	</li>
+    </ul>
+  </body>
+</html>

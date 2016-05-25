@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <title>Pdfbox-2965</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Pdfbox-2965</h1>
+    <table class="summary pure-table">
+      <tr>
+        <td class="label">Nb encountered decision points</td> <td>1</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">Nb decision seq.</td> <td>4</td>
+      </tr>
+      <tr>
+        <td class="label">Nb valid runtime patches</td> <td>3</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Min Valid runtime patches.|</td> <td>1</td>
+      </tr>
+      <tr>
+        <td class="label">| Med Valid runtime patches.|</td> <td>1.0</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Max Valid runtime patches.|</td> <td>1</td>
+      </tr>
+    </table>
+    <ul class="executions">
+      	<li class="execution">
+      		<h2>Execution 1</h2>
+        	<div class="decision">
+	        	<h3>Strat2A</h3>
+		      	<pre class="diff">
+--- /java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
++++ /java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+@@ -250,21 +250,27 @@
+ 
+-            for (int i = 0; i &lt; fields.size() &amp;&amp; retval == null; i++)
+-            {
+-                COSDictionary element = (COSDictionary) fields.getObject(i);
+-                if (element != null)
++            if (fields == null) {
++                for (int i = 0; i &lt; new org.apache.pdfbox.cos.COSArray().size() &amp;&amp; retval == null; i++)
+                 {
+-                    COSString fieldName =
+-                            (COSString)element.getDictionaryObject(COSName.T);
+-                    if (fieldName.getString().equals(fullyQualifiedName) ||
+-                            fieldName.getString().equals(nameSubSection[0]))
++                    COSDictionary element = (COSDictionary) fields.getObject(i);
++                    if (element != null)
+                     {
+-                        PDField root = PDField.fromDictionary(this, element, null);
+-                        if (root != null)
++                        COSString fieldName =
++                                (COSString)element.getDictionaryObject(COSName.T);
++                        if (fieldName.getString().equals(fullyQualifiedName) ||
++                                fieldName.getString().equals(nameSubSection[0]))
+                         {
+-                            if (nameSubSection.length &gt; 1)
++                            PDField root = PDField.fromDictionary(this, element, null);
++                            if (root != null)
+                             {
+-                                PDField kid = root.findKid(nameSubSection, 1);
+-                                if (kid != null)
++                                if (nameSubSection.length &gt; 1)
+                                 {
+-                                    retval = kid;
++                                    PDField kid = root.findKid(nameSubSection, 1);
++                                    if (kid != null)
++                                    {
++                                        retval = kid;
++                                    }
++                                    else
++                                    {
++                                        retval = root;
++                                    }
+                                 }
+@@ -275,5 +281,35 @@
+                             }
+-                            else
++                        }
++                    }
++                }
++            } else {
++                for (int i = 0; i &lt; fields.size() &amp;&amp; retval == null; i++)
++                {
++                    COSDictionary element = (COSDictionary) fields.getObject(i);
++                    if (element != null)
++                    {
++                        COSString fieldName =
++                                (COSString)element.getDictionaryObject(COSName.T);
++                        if (fieldName.getString().equals(fullyQualifiedName) ||
++                                fieldName.getString().equals(nameSubSection[0]))
++                        {
++                            PDField root = PDField.fromDictionary(this, element, null);
++                            if (root != null)
+                             {
+-                                retval = root;
++                                if (nameSubSection.length &gt; 1)
++                                {
++                                    PDField kid = root.findKid(nameSubSection, 1);
++                                    if (kid != null)
++                                    {
++                                        retval = kid;
++                                    }
++                                    else
++                                    {
++                                        retval = root;
++                                    }
++                                }
++                                else
++                                {
++                                    retval = root;
++                                }
+                             }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 2</h2>
+        	<div class="decision">
+	        	<h3>Strat2B</h3>
+		      	<pre class="diff">
+--- /java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
++++ /java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+@@ -250,2 +250,5 @@
+ 
++            if (fields == null) {
++                fields = new org.apache.pdfbox.cos.COSArray();
++            }
+             for (int i = 0; i &lt; fields.size() &amp;&amp; retval == null; i++)
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 4</h2>
+        	<div class="decision">
+	        	<h3>Strat4 NULL</h3>
+		      	<pre class="diff">
+--- /java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
++++ /java/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.java
+@@ -250,2 +250,5 @@
+ 
++            if (fields == null) {
++                return null;
++            }
+             for (int i = 0; i &lt; fields.size() &amp;&amp; retval == null; i++)
+
+		      	</pre>
+	    	</div>
+      	</li>
+    </ul>
+  </body>
+</html>

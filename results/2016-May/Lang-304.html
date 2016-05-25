@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <title>Lang-304</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Lang-304</h1>
+    <table class="summary pure-table">
+      <tr>
+        <td class="label">Nb encountered decision points</td> <td>1</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">Nb decision seq.</td> <td>7</td>
+      </tr>
+      <tr>
+        <td class="label">Nb valid runtime patches</td> <td>6</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Min Valid runtime patches.|</td> <td>1</td>
+      </tr>
+      <tr>
+        <td class="label">| Med Valid runtime patches.|</td> <td>1.0</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Max Valid runtime patches.|</td> <td>1</td>
+      </tr>
+    </table>
+    <ul class="executions">
+      	<li class="execution">
+      		<h2>Execution 1</h2>
+        	<div class="decision">
+	        	<h3>Strat4 NEW</h3>
+		      	<pre class="diff">
+--- /main/java/org/apache/commons/lang/LocaleUtils.java
++++ /main/java/org/apache/commons/lang/LocaleUtils.java
+@@ -222,2 +222,5 @@
+     public static boolean isAvailableLocale(Locale locale) {
++        if (org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet == null) {
++            return false;
++        }
+         return cAvailableLocaleSet.contains(locale);
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 2</h2>
+        	<div class="decision">
+	        	<h3>Strat2A</h3>
+		      	<pre class="diff">
+--- /main/java/org/apache/commons/lang/LocaleUtils.java
++++ /main/java/org/apache/commons/lang/LocaleUtils.java
+@@ -222,3 +222,7 @@
+     public static boolean isAvailableLocale(Locale locale) {
+-        return cAvailableLocaleSet.contains(locale);
++        if (org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet == null) {
++            return new java.util.HashSet().contains(locale);
++        } else {
++            return cAvailableLocaleSet.contains(locale);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 3</h2>
+        	<div class="decision">
+	        	<h3>Strat4 NEW</h3>
+		      	<pre class="diff">
+--- /main/java/org/apache/commons/lang/LocaleUtils.java
++++ /main/java/org/apache/commons/lang/LocaleUtils.java
+@@ -222,2 +222,5 @@
+     public static boolean isAvailableLocale(Locale locale) {
++        if (org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet == null) {
++            return true;
++        }
+         return cAvailableLocaleSet.contains(locale);
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 4</h2>
+        	<div class="decision">
+	        	<h3>Strat4 VAR</h3>
+		      	<pre class="diff">
+--- /main/java/org/apache/commons/lang/LocaleUtils.java
++++ /main/java/org/apache/commons/lang/LocaleUtils.java
+@@ -222,2 +222,5 @@
+     public static boolean isAvailableLocale(Locale locale) {
++        if (org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet == null) {
++            return java.lang.Boolean.TRUE;
++        }
+         return cAvailableLocaleSet.contains(locale);
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 5</h2>
+        	<div class="decision">
+	        	<h3>Strat2B</h3>
+		      	<pre class="diff">
+--- /main/java/org/apache/commons/lang/LocaleUtils.java
++++ /main/java/org/apache/commons/lang/LocaleUtils.java
+@@ -222,2 +222,5 @@
+     public static boolean isAvailableLocale(Locale locale) {
++        if (org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet == null) {
++            org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet = new java.util.HashSet();
++        }
+         return cAvailableLocaleSet.contains(locale);
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 7</h2>
+        	<div class="decision">
+	        	<h3>Strat4 VAR</h3>
+		      	<pre class="diff">
+--- /main/java/org/apache/commons/lang/LocaleUtils.java
++++ /main/java/org/apache/commons/lang/LocaleUtils.java
+@@ -222,2 +222,5 @@
+     public static boolean isAvailableLocale(Locale locale) {
++        if (org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet == null) {
++            return java.lang.Boolean.FALSE;
++        }
+         return cAvailableLocaleSet.contains(locale);
+
+		      	</pre>
+	    	</div>
+      	</li>
+    </ul>
+  </body>
+</html>

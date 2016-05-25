@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Math-305</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Math-305</h1>
+    <table class="summary pure-table">
+      <tr>
+        <td class="label">Nb encountered decision points</td> <td>1</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">Nb decision seq.</td> <td>4</td>
+      </tr>
+      <tr>
+        <td class="label">Nb valid runtime patches</td> <td>3</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Min Valid runtime patches.|</td> <td>1</td>
+      </tr>
+      <tr>
+        <td class="label">| Med Valid runtime patches.|</td> <td>1.0</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Max Valid runtime patches.|</td> <td>1</td>
+      </tr>
+    </table>
+    <ul class="executions">
+      	<li class="execution">
+      		<h2>Execution 1</h2>
+        	<div class="decision">
+	        	<h3>Strat2A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ /main/java/org/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -90,3 +90,7 @@
+             Cluster&lt;T&gt; cluster = getNearestCluster(clusters, p);
+-            cluster.addPoint(p);
++            if (cluster == null) {
++                 new org.apache.commons.math.stat.clustering.Cluster(null).addPoint(p);
++            } else {
++                cluster.addPoint(p);
++            }
+         }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 2</h2>
+        	<div class="decision">
+	        	<h3>Strat2B</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ /main/java/org/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -90,2 +90,5 @@
+             Cluster&lt;T&gt; cluster = getNearestCluster(clusters, p);
++            if (cluster == null) {
++                cluster = new org.apache.commons.math.stat.clustering.Cluster(null);
++            }
+             cluster.addPoint(p);
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 3</h2>
+        	<div class="decision">
+	        	<h3>Strat3</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ /main/java/org/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -90,3 +90,5 @@
+             Cluster&lt;T&gt; cluster = getNearestCluster(clusters, p);
+-            cluster.addPoint(p);
++            if (cluster != null) {
++                cluster.addPoint(p);
++            }
+         }
+
+		      	</pre>
+	    	</div>
+      	</li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,364 @@
+<html>
+  <head>
+    <title>Math-988B</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Math-988B</h1>
+    <table class="summary pure-table">
+      <tr>
+        <td class="label">Nb encountered decision points</td> <td>1</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">Nb decision seq.</td> <td>32</td>
+      </tr>
+      <tr>
+        <td class="label">Nb valid runtime patches</td> <td>17</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Min Valid runtime patches.|</td> <td>1</td>
+      </tr>
+      <tr>
+        <td class="label">| Med Valid runtime patches.|</td> <td>1.0</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td class="label">| Max Valid runtime patches.|</td> <td>1</td>
+      </tr>
+    </table>
+    <ul class="executions">
+      	<li class="execution">
+      		<h2>Execution 1</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_J.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 2</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_K.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 3</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_J.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 4</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_K.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 5</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.PLUS_I.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 6</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.POSITIVE_INFINITY.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 7</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return direction.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 8</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NEGATIVE_INFINITY.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 9</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.MINUS_I.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 10</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.ZERO.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 11</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return org.apache.commons.math3.geometry.euclidean.threed.Vector3D.NaN.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 12</h2>
+        	<div class="decision">
+	        	<h3>Strat1A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return zero.subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 25</h2>
+        	<div class="decision">
+	        	<h3>Strat2A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return new org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0, 0.0).subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 26</h2>
+        	<div class="decision">
+	        	<h3>Strat2A</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,3 +113,7 @@
+     public double getAbscissa(final Vector3D point) {
+-        return point.subtract(zero).dotProduct(direction);
++        if (point == null) {
++            return new org.apache.commons.math3.geometry.euclidean.threed.Vector3D(0.0, 0.0).subtract(zero).dotProduct(direction);
++        } else {
++            return point.subtract(zero).dotProduct(direction);
++        }
+     }
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 30</h2>
+        	<div class="decision">
+	        	<h3>Strat4 NEW</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,2 +113,5 @@
+     public double getAbscissa(final Vector3D point) {
++        if (point == null) {
++            return 0.0;
++        }
+         return point.subtract(zero).dotProduct(direction);
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 31</h2>
+        	<div class="decision">
+	        	<h3>Strat4 NEW</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,2 +113,5 @@
+     public double getAbscissa(final Vector3D point) {
++        if (point == null) {
++            return -1.0;
++        }
+         return point.subtract(zero).dotProduct(direction);
+
+		      	</pre>
+	    	</div>
+      	</li>
+      	<li class="execution">
+      		<h2>Execution 32</h2>
+        	<div class="decision">
+	        	<h3>Strat4 NEW</h3>
+		      	<pre class="diff">
+--- /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
++++ /main/java/org/org/apache/commons/math3/geometry/euclidean/threed/Line.java
+@@ -113,2 +113,5 @@
+     public double getAbscissa(final Vector3D point) {
++        if (point == null) {
++            return 1.0;
++        }
+         return point.subtract(zero).dotProduct(direction);
+
+		      	</pre>
+	    	</div>
+      	</li>
+    </ul>
+  </body>
+</html>
