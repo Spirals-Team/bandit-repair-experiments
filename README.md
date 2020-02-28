@@ -1,9 +1,19 @@
 # Open-science Experimental Results
 
-This repository contains the raw results of experiments in the field of runtime repair and failure-oblivious computing.
+This repository contains the raw results of our experiments in the field of runtime repair and failure-oblivious computing.
 
-* exhaustive exploration of the failure-oblivious search space]
-* bandit-based exploration
+Reference: [Exhaustive Exploration of the Failure-oblivious Computing Search Space](https://arxiv.org/pdf/1710.09722) ([doi:10.1109/ICST.2018.00023](https://doi.org/10.1109/ICST.2018.00023))
+
+```bibtex
+@inproceedings{durieux:hal-01624988,
+ title = {Exhaustive Exploration of the Failure-oblivious Computing Search Space},
+ author = {Durieux, Thomas and Hamadi, Youssef and Yu, Zhongxing and Baudry, Benoit and Monperrus, Martin},
+ url = {https://arxiv.org/pdf/1710.09722},
+ booktitle = {{ICST 2018 - 11th IEEE Conference on Software Testing, Validation and Verification}},
+ year = {2018},
+ doi = {10.1109/ICST.2018.00023},
+}
+```
 
 ## Repository architecture
 ```
@@ -20,6 +30,7 @@ results                     // the raw results
 |--- ...
 src                         // the scripts used the generate all figures
 ```
+
 
 ## Result format
 ```javascript
